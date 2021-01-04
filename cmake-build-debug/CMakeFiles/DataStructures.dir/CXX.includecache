@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/BinarySearchTree.h
+cstdlib
+-
+iostream
+-
+queue
+-
+
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/main.cpp
+iostream
+-
+BinarySearchTree.h
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/BinarySearchTree.h
+
