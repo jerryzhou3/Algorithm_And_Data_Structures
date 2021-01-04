@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/BinarySearchTree.h">
 			<Option target="DataStructures"/>
 		</Unit>
+		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/TestCase.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/TestCase.h">
+			<Option target="DataStructures"/>
+		</Unit>
 		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/main.cpp">
 			<Option target="DataStructures"/>
 		</Unit>

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DataStructures.dir/BinarySearchTree.cpp.obj"
+  "CMakeFiles/DataStructures.dir/TestCase.cpp.obj"
   "CMakeFiles/DataStructures.dir/main.cpp.obj"
   "DataStructures.exe"
   "DataStructures.exe.manifest"

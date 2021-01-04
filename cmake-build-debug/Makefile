@@ -169,6 +169,33 @@ BinarySearchTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/BinarySearchTree.cpp.s
 .PHONY : BinarySearchTree.cpp.s
 
+TestCase.obj: TestCase.cpp.obj
+
+.PHONY : TestCase.obj
+
+# target to build an object file
+TestCase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/TestCase.cpp.obj
+.PHONY : TestCase.cpp.obj
+
+TestCase.i: TestCase.cpp.i
+
+.PHONY : TestCase.i
+
+# target to preprocess a source file
+TestCase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/TestCase.cpp.i
+.PHONY : TestCase.cpp.i
+
+TestCase.s: TestCase.cpp.s
+
+.PHONY : TestCase.s
+
+# target to generate assembly for a file
+TestCase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/TestCase.cpp.s
+.PHONY : TestCase.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -208,6 +235,9 @@ help:
 	@echo ... BinarySearchTree.obj
 	@echo ... BinarySearchTree.i
 	@echo ... BinarySearchTree.s
+	@echo ... TestCase.obj
+	@echo ... TestCase.i
+	@echo ... TestCase.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
