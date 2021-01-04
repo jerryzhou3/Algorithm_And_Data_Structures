@@ -52,12 +52,12 @@ int BinarySearchTree::getMax() {
 
 int BinarySearchTree::getHeight() {
     struct recursion {
-        static int getHeight_rev(TreeNode* root) {
+        static int getHeight_rec(TreeNode* root) {
             if (!root) return 0;
-            else return 1 + std::max(getHeight_rev(root->left), getHeight_rev(root->right));
+            else return 1 + std::max(getHeight_rec(root->left), getHeight_rec(root->right));
         }
     };
-    return recursion::getHeight_rev(this->root);
+    return recursion::getHeight_rec(this->root);
 }
 
 void BinarySearchTree::remove(int x) {
@@ -107,7 +107,18 @@ bool BinarySearchTree::isFull() {
 }
 
 bool BinarySearchTree::isBalanced() {
-    return false;
+    struct recursion {
+        static int getHeight_rec(TreeNode* root) {
+            if (!root) return 0;
+            else return 1 + std::max(getHeight_rec(root->left), getHeight_rec(root->right));
+        }
+
+        static bool isBalanced_rec(TreeNode* root) {
+            if (!root) return true;
+            else return std::abs(getHeight_rec(root->left) - getHeight_rec(root->right)) <= 1;
+        }
+    };
+    return recursion::isBalanced_rec(this->root);
 }
 
 void BinarySearchTree::printTree() {

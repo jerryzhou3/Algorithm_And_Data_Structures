@@ -1,1 +1,1 @@
-"C++ implementation of important data structures and LeetCode excerciese" 
+"C++ implementation of important data structures and LeetCode excercises" 
