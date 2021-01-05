@@ -1,8 +1,7 @@
-#include <iostream>
 #include "TestCase.h"
-#include "BinarySearchTree.h"
 
 int main() {
     TestCase::testBinarySearchTree();
+    TestCase::testAVLTree();
     return 0;
 }

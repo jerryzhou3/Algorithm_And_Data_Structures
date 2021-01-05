@@ -113,12 +113,12 @@ bool BinarySearchTree::isBalanced() {
             else return 1 + std::max(getHeight_rec(root->left), getHeight_rec(root->right));
         }
 
-        static bool isBalanced_rec(TreeNode* root) {
+        static bool isBalanced(TreeNode* root) {
             if (!root) return true;
             else return std::abs(getHeight_rec(root->left) - getHeight_rec(root->right)) <= 1;
         }
     };
-    return recursion::isBalanced_rec(this->root);
+    return recursion::isBalanced(this->root);
 }
 
 void BinarySearchTree::printTree() {

@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/AVLTree.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/AVLTree.h">
+			<Option target="DataStructures"/>
+		</Unit>
 		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/BinarySearchTree.cpp">
 			<Option target="DataStructures"/>
 		</Unit>

@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/AVLTree.cpp
+AVLTree.h
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/AVLTree.h
+
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/AVLTree.h
+cstdlib
+-
+iostream
+-
+queue
+-
+
 C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/BinarySearchTree.h
 cstdlib
 -
@@ -21,4 +33,6 @@ C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/Tes
 C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/TestCase.h
 BinarySearchTree.h
 C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/BinarySearchTree.h
+AVLTree.h
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/AVLTree.h
 

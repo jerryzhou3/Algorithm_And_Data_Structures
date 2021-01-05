@@ -142,6 +142,33 @@ DataStructures/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/build
 .PHONY : DataStructures/fast
 
+AVLTree.obj: AVLTree.cpp.obj
+
+.PHONY : AVLTree.obj
+
+# target to build an object file
+AVLTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/AVLTree.cpp.obj
+.PHONY : AVLTree.cpp.obj
+
+AVLTree.i: AVLTree.cpp.i
+
+.PHONY : AVLTree.i
+
+# target to preprocess a source file
+AVLTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/AVLTree.cpp.i
+.PHONY : AVLTree.cpp.i
+
+AVLTree.s: AVLTree.cpp.s
+
+.PHONY : AVLTree.s
+
+# target to generate assembly for a file
+AVLTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/AVLTree.cpp.s
+.PHONY : AVLTree.cpp.s
+
 BinarySearchTree.obj: BinarySearchTree.cpp.obj
 
 .PHONY : BinarySearchTree.obj
@@ -232,6 +259,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DataStructures
+	@echo ... AVLTree.obj
+	@echo ... AVLTree.i
+	@echo ... AVLTree.s
 	@echo ... BinarySearchTree.obj
 	@echo ... BinarySearchTree.i
 	@echo ... BinarySearchTree.s

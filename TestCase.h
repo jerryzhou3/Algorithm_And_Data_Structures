@@ -6,10 +6,14 @@
 #define DATASTRUCTURES_TESTCASE_H
 
 #include "BinarySearchTree.h"
+#include "AVLTree.h"
 
 class TestCase {
+    static void doTestBinarySearchTree();
+    static void doTestAVLTree();
 public:
     static void testBinarySearchTree();
+    static void testAVLTree();
 };
 
 
