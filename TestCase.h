@@ -7,13 +7,16 @@
 
 #include "BinarySearchTree.h"
 #include "AVLTree.h"
+#include "MinHeap.h"
 
 class TestCase {
     static void doTestBinarySearchTree();
     static void doTestAVLTree();
+    static void doTestMinHeap();
 public:
     static void testBinarySearchTree();
     static void testAVLTree();
+    static void testMinHeap();
 };
 
 

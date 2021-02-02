@@ -56,6 +56,7 @@ void TestCase::doTestBinarySearchTree() {
     std::cout << std::endl;
 
     std::cout << "is balanced: " << std::boolalpha << BST->isBalanced() << std::endl;
+    delete BST;
 }
 
 void TestCase::doTestAVLTree() {
@@ -86,6 +87,7 @@ void TestCase::doTestAVLTree() {
     std::cout << "is full: " << std::boolalpha << AVL->isFull() << std::endl;
     AVL->printTree();
     std::cout << std::endl;
+    delete AVL;
 }
 
 void TestCase::testBinarySearchTree() {
@@ -97,3 +99,30 @@ void TestCase::testAVLTree() {
     std::cout << std::endl << "<TEST AVLTree>" << std::endl << std::endl;
     doTestAVLTree();
 }
+
+void TestCase::doTestMinHeap() {
+    std::cout << std::endl << "<TEST MinHeap>" << std::endl << std::endl;
+    doTestMinHeap();
+}
+
+void TestCase::testMinHeap() {
+    auto* HEAP = new MinHeap(20);
+    std::cout << "INSERT: 10, 5, 7, 1, 3, 20" << std::endl;
+    HEAP->insert(10);
+    HEAP->insert(5);
+    HEAP->insert(7);
+    HEAP->insert(1);
+    HEAP->insert(3);
+    HEAP->insert(20);
+    std::cout << "EXTRACT MIN:" << std::endl;
+    std::cout << HEAP->extractMin() << std::endl;
+    std::cout << HEAP->extractMin() << std::endl;
+    std::cout << HEAP->extractMin() << std::endl;
+    std::cout << HEAP->extractMin() << std::endl;
+    std::cout << HEAP->extractMin() << std::endl;
+    std::cout << HEAP->extractMin() << std::endl;
+    std::cout << HEAP->extractMin() << std::endl;
+    delete HEAP;
+}
+
+

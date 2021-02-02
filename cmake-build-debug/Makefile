@@ -196,6 +196,33 @@ BinarySearchTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/BinarySearchTree.cpp.s
 .PHONY : BinarySearchTree.cpp.s
 
+MinHeap.obj: MinHeap.cpp.obj
+
+.PHONY : MinHeap.obj
+
+# target to build an object file
+MinHeap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/MinHeap.cpp.obj
+.PHONY : MinHeap.cpp.obj
+
+MinHeap.i: MinHeap.cpp.i
+
+.PHONY : MinHeap.i
+
+# target to preprocess a source file
+MinHeap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/MinHeap.cpp.i
+.PHONY : MinHeap.cpp.i
+
+MinHeap.s: MinHeap.cpp.s
+
+.PHONY : MinHeap.s
+
+# target to generate assembly for a file
+MinHeap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DataStructures.dir\build.make CMakeFiles/DataStructures.dir/MinHeap.cpp.s
+.PHONY : MinHeap.cpp.s
+
 TestCase.obj: TestCase.cpp.obj
 
 .PHONY : TestCase.obj
@@ -265,6 +292,9 @@ help:
 	@echo ... BinarySearchTree.obj
 	@echo ... BinarySearchTree.i
 	@echo ... BinarySearchTree.s
+	@echo ... MinHeap.obj
+	@echo ... MinHeap.i
+	@echo ... MinHeap.s
 	@echo ... TestCase.obj
 	@echo ... TestCase.i
 	@echo ... TestCase.s
