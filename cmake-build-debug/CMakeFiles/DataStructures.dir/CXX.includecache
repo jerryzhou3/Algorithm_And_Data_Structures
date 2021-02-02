@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/AVLTree.cpp
-AVLTree.h
-C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/AVLTree.h
-
 C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/AVLTree.h
 cstdlib
 -
@@ -24,6 +20,16 @@ cstdlib
 iostream
 -
 queue
+-
+
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/MinHeap.cpp
+MinHeap.h
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/MinHeap.h
+
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/MinHeap.h
+iostream
+-
+bits/stdc++.h
 -
 
 C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/TestCase.cpp
@@ -35,4 +41,10 @@ BinarySearchTree.h
 C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/BinarySearchTree.h
 AVLTree.h
 C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/AVLTree.h
+MinHeap.h
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/MinHeap.h
+
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/main.cpp
+TestCase.h
+C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/TestCase.h
 
