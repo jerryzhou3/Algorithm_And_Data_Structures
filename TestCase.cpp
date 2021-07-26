@@ -100,12 +100,12 @@ void TestCase::testAVLTree() {
     doTestAVLTree();
 }
 
-void TestCase::doTestMinHeap() {
+void TestCase::testMinHeap() {
     std::cout << std::endl << "<TEST MinHeap>" << std::endl << std::endl;
     doTestMinHeap();
 }
 
-void TestCase::testMinHeap() {
+void TestCase::doTestMinHeap() {
     auto* HEAP = new MinHeap(20);
     std::cout << "INSERT: 10, 5, 7, 1, 3, 20" << std::endl;
     HEAP->insert(10);
@@ -123,6 +123,27 @@ void TestCase::testMinHeap() {
     std::cout << HEAP->extractMin() << std::endl;
     std::cout << HEAP->extractMin() << std::endl;
     delete HEAP;
+}
+
+void TestCase::doTestQuickSort() {
+    std::vector<int> array;
+    array.push_back(5);
+    array.push_back(3);
+    array.push_back(2);
+    array.push_back(6);
+    array.push_back(10);
+    array.push_back(-1);
+    array.push_back(300);
+    array.push_back(1);
+    QuickSort::quickSort(array);
+    for (auto i : array) {
+        std::cout << i << std::endl;
+    }
+}
+
+void TestCase::testQuickSort() {
+    std::cout << std::endl << "<TEST QuickSort>" << std::endl << std::endl;
+    doTestQuickSort();
 }
 
 

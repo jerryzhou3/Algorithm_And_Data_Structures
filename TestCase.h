@@ -8,15 +8,18 @@
 #include "BinarySearchTree.h"
 #include "AVLTree.h"
 #include "MinHeap.h"
+#include "QuickSort.h"
 
 class TestCase {
     static void doTestBinarySearchTree();
     static void doTestAVLTree();
     static void doTestMinHeap();
+    static void doTestQuickSort();
 public:
     static void testBinarySearchTree();
     static void testAVLTree();
     static void testMinHeap();
+    static void testQuickSort();
 };
 
 

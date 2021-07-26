@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DataStructures.dir/AVLTree.cpp.obj"
   "CMakeFiles/DataStructures.dir/BinarySearchTree.cpp.obj"
   "CMakeFiles/DataStructures.dir/MinHeap.cpp.obj"
+  "CMakeFiles/DataStructures.dir/QuickSort.cpp.obj"
+  "CMakeFiles/DataStructures.dir/SegmentTree.cpp.obj"
   "CMakeFiles/DataStructures.dir/TestCase.cpp.obj"
   "CMakeFiles/DataStructures.dir/main.cpp.obj"
   "DataStructures.exe"

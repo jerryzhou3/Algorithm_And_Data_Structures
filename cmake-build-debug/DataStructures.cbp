@@ -98,6 +98,18 @@
 		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/MinHeap.h">
 			<Option target="DataStructures"/>
 		</Unit>
+		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/QuickSort.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/QuickSort.h">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/SegmentTree.cpp">
+			<Option target="DataStructures"/>
+		</Unit>
+		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/SegmentTree.h">
+			<Option target="DataStructures"/>
+		</Unit>
 		<Unit filename="C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/TestCase.cpp">
 			<Option target="DataStructures"/>
 		</Unit>

@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/AVLTree.cpp" "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/AVLTree.cpp.obj"
   "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/BinarySearchTree.cpp" "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/BinarySearchTree.cpp.obj"
   "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/MinHeap.cpp" "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/MinHeap.cpp.obj"
+  "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/QuickSort.cpp" "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/QuickSort.cpp.obj"
+  "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/SegmentTree.cpp" "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/SegmentTree.cpp.obj"
   "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/TestCase.cpp" "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/TestCase.cpp.obj"
   "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/main.cpp" "C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir/main.cpp.obj"
   )
