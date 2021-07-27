@@ -6,7 +6,7 @@
 #define DATASTRUCTURES_MINHEAP_H
 
 #include <iostream>
-#include <bits/stdc++.h>
+#include <limits.h>
 
 class MinHeap {
     int* array;
