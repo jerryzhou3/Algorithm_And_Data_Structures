@@ -1,3 +1,0 @@
-C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/cmake-build-debug/CMakeFiles/DataStructures.dir
-C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/jerryzhou3/Desktop/Github/Coding_And_Data_Structures/DataStructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
